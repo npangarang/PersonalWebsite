@@ -12,7 +12,7 @@ blockquote:before,blockquote:after,q:before,q:after{content:none}
 a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+abbr[title],dfn[title]{border-bottom:1px solid;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
@@ -60,10 +60,11 @@ canvas{
   position: fixed;
   background-color: #6C88FF;
   /*background-image: url(https://img.wallpapersafari.com/desktop/1680/1050/6/28/lXeAmR.png);*/
-  background-image: url("images/mario.jpg");
-  background-size: contain;
+  background-image: url("images/blueyy.png");
+  background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -117,7 +118,7 @@ canvas{
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .row {
-border-top: double;
+border-top: solid;
 padding-bottom: 3%;
 padding-top: 3%;
 background-color: purple;
